@@ -19,9 +19,6 @@ export function Main(){
                     <i className="fab fa-twitter"></i>
                    </div>
                 </div>
-                <div>
-                    <h1>salom</h1>
-                </div>
                 <div className="logo">
                     <div className="logoItem">
                         <div className="logo_left">
