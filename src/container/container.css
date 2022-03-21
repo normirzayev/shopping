@@ -1,0 +1,493 @@
+.container {
+  background-color: #E5E5E5;
+}
+
+.container .cont_container .bestValue {
+  width: 100%;
+  padding: 0 150px;
+}
+
+.container .cont_container .bestValue > p {
+  color: #7FAD39;
+  font-weight: bold;
+}
+
+.container .cont_container .bestValue > h2 {
+  font-weight: bold;
+  margin: 5px 0 25px;
+}
+
+.container .cont_container .bestValue .value_boxer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (calc(100% / 3))[3];
+      grid-template-columns: repeat(3, calc(100% / 3));
+  gap: 10px;
+  width: 100%;
+}
+
+.container .cont_container .bestValue .value_boxer .value_box {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container .cont_container .bestValue .value_boxer .value_box:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.container .cont_container .bestValue .value_boxer .value_box img {
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .cont_container .bestValue .value_boxer .value_box .value_text {
+  position: absolute;
+  top: 15%;
+  margin: 0 20px;
+}
+
+.container .cont_container .bestValue .value_boxer .value_box .value_text h1 {
+  font-weight: bold;
+}
+
+.container .cont_container .bestValue .value_boxer .value_box .value_text p {
+  font-size: 28px;
+}
+
+.container .cont_container .bestValue .value_boxer .value_box .value_text button {
+  outline: none;
+  border: none;
+  padding: 15px 20px;
+  margin-top: 20px;
+  background-color: #2A2A2A;
+  color: white;
+  cursor: pointer;
+}
+
+.container .cont_container .bestValue .value_boxer .value_box .value_text button:hover {
+  background-color: black;
+}
+
+.container .cont_container .bestValue .value_boxer .value_box .bir {
+  margin-top: 70px;
+}
+
+.container .cont_container .bestValue .value_boxer .value_box .ikki {
+  margin-top: 30px;
+}
+
+.container .cont_container .cashback {
+  background-image: url(../eats/img/container/orqaFon.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px 0;
+}
+
+.container .cont_container .cashback .opacity {
+  background-color: rgba(42, 42, 42, 0.4);
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+
+.container .cont_container .cashback .opacity h1 {
+  margin: 10px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.container .cont_container .cashback .opacity p {
+  font-size: 14px;
+  background-color: #7ead398a;
+  width: 25%;
+  padding: 10px;
+  margin: 15px auto;
+  font-weight: bold;
+  border: 1px dashed white;
+  cursor: pointer;
+}
+
+.container .cont_container .cashback .opacity p:hover {
+  background-color: #7ead39ad;
+}
+
+.container .footer {
+  padding: 40px 150px;
+  background-color: #191919;
+  color: white;
+}
+
+.container .footer .footer_qism {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .footer .footer_qism .footer_logo {
+  width: 25%;
+}
+
+.container .footer .footer_qism .footer_logo > h1 {
+  width: 50%;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.container .footer .footer_qism .footer_logo > p {
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.container .footer .footer_qism .full_link {
+  width: 17%;
+}
+
+.container .footer .footer_qism .full_link ul {
+  line-height: 33px;
+}
+
+.container .footer .footer_qism .full_link ul h1 {
+  font-size: 20px;
+}
+
+.container .footer .footer_qism .full_link ul li {
+  list-style: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.container .footer .footer_qism .full_link ul li:hover {
+  color: #d1be9b;
+}
+
+.container .footer .footer_qism .footer_link {
+  width: 17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 35px 0;
+}
+
+.container .footer .footer_qism .footer_link ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .footer .footer_qism .footer_link ul li {
+  display: inline-block;
+  list-style: none;
+  line-height: 33px;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.container .footer .footer_qism .footer_link ul li:hover {
+  color: #d1be9b;
+}
+
+.container .footer .footer_qism .download_app {
+  width: 40%;
+}
+
+.container .footer .footer_qism .download_app h1 {
+  font-size: 20px;
+}
+
+.container .footer .footer_qism .download_app .yuklash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+.container .footer .footer_qism .download_app .yuklash a {
+  border: 1px solid #706f6f;
+  margin-right: 20px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.container .footer .footer_qism .download_app .yuklash a:hover {
+  color: silver;
+}
+
+.container .footer .footer_qism .download_app .yuklash a:nth-child(2) i {
+  font-size: 25px;
+}
+
+.container .footer .footer_qism .download_app .yuklash a span {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  height: 80px;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  z-index: 1;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.315)), color-stop(rgba(85, 85, 85, 0.185)), to(rgba(0, 0, 0, 0.185)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.315), rgba(85, 85, 85, 0.185), rgba(0, 0, 0, 0.185));
+  right: -40px;
+  top: -30px;
+}
+
+.container .footer .footer_qism .download_app .yuklash a i {
+  font-size: 35px;
+  margin: 0 10px;
+  z-index: 2;
+}
+
+.container .footer .footer_qism .download_app .yuklash a .app_store {
+  z-index: 3;
+}
+
+.container .footer .footer_qism .download_app .yuklash a .app_store p {
+  font-size: 8px;
+}
+
+.container .footer .footer_qism .download_app .yuklash a .app_store h1 {
+  font-size: 16px;
+}
+
+.container .footer .footer_qism .download_app .yuklash a .play_market p {
+  font-size: 8px;
+}
+
+.container .footer .footer_qism .download_app .yuklash a .play_market h1 {
+  font-size: 16px;
+}
+
+.container .footer .footer_qism .download_app form {
+  margin: 20px 0;
+}
+
+.container .footer .footer_qism .download_app form input {
+  border: none;
+  outline: none;
+  width: 65%;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.container .footer .footer_qism .download_app form input::-webkit-input-placeholder {
+  text-transform: capitalize;
+}
+
+.container .footer .footer_qism .download_app form input:-ms-input-placeholder {
+  text-transform: capitalize;
+}
+
+.container .footer .footer_qism .download_app form input::-ms-input-placeholder {
+  text-transform: capitalize;
+}
+
+.container .footer .footer_qism .download_app form input::placeholder {
+  text-transform: capitalize;
+}
+
+.container .footer .footer_qism .download_app form input:focus {
+  background-color: #f0f0f0;
+}
+
+.container .footer .footer_qism .download_app form button {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 35%;
+  padding: 15px;
+  background-color: #7FAD39;
+  color: white;
+  cursor: pointer;
+}
+
+.container .footer .footer_qism .download_app form button:hover {
+  background-color: #6cad0a;
+}
+
+.container .footer .footer_qism .download_app .company {
+  margin: 10px 0;
+}
+
+.container .footer .footer_qism .download_app .company img {
+  margin-right: 10px;
+}
+
+.container .footer > p {
+  margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+  .container .cont_container .bestValue {
+    padding: 0 80px;
+  }
+  .container .cont_container .bestValue .value_boxer .value_box .value_text h1 {
+    font-size: 20px;
+  }
+  .container .cont_container .bestValue .value_boxer .value_box .value_text p {
+    font-size: 16px;
+  }
+  .container .cont_container .bestValue .value_boxer .value_box .bir {
+    margin-top: 20px;
+  }
+  .container .cont_container .bestValue .value_boxer .value_box .ikki {
+    margin-top: 20px;
+  }
+  .container .cont_container .cashback .opacity p {
+    width: 60%;
+  }
+  .container .footer {
+    padding: 40px 80px;
+  }
+}
+
+@media (max-width: 860px) {
+  .container .cont_container .bestValue {
+    padding: 0 80px;
+  }
+  .container .cont_container .bestValue .value_boxer {
+    -ms-grid-columns: (calc(100% / 2))[2];
+        grid-template-columns: repeat(2, calc(100% / 2));
+  }
+  .container .cont_container .bestValue .value_boxer .value_box .bir {
+    margin-top: 10px;
+  }
+  .container .cont_container .bestValue .value_boxer .value_box .ikki {
+    margin-top: 10px;
+  }
+  .container .footer .footer_qism {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .footer .footer_qism .footer_logo {
+    width: 30%;
+  }
+  .container .footer .footer_qism .full_link {
+    width: 30%;
+  }
+  .container .footer .footer_qism .footer_link {
+    width: 30%;
+  }
+  .container .footer .footer_qism .download_app {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container .cont_container .bestValue {
+    padding: 0 30px;
+  }
+  .container .footer {
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container .cont_container .bestValue {
+    padding: 0 10px;
+  }
+  .container .cont_container .bestValue .value_boxer {
+    -ms-grid-columns: (calc(100% / 1))[1];
+        grid-template-columns: repeat(1, calc(100% / 1));
+  }
+  .container .footer .footer_qism {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .footer .footer_qism .footer_logo {
+    width: 50%;
+  }
+  .container .footer .footer_qism .footer_logo h1 {
+    font-size: 25px;
+  }
+  .container .footer .footer_qism .full_link {
+    width: 50%;
+    text-align: end;
+  }
+  .container .footer .footer_qism .footer_link {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .container .footer .footer_qism .footer_link ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .footer .footer_qism .download_app {
+    width: 100%;
+  }
+}
+
+@media (max-width: 340px) {
+  .container .footer .footer_qism .footer_logo {
+    width: 100%;
+  }
+  .container .footer .footer_qism .full_link {
+    width: 100%;
+    text-align: start;
+  }
+  .container .footer .footer_qism .footer_link {
+    width: 100%;
+  }
+  .container .footer .footer_qism .download_app .yuklash {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .footer .footer_qism .download_app .yuklash a {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+  .container .footer .footer_qism .download_app form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .footer .footer_qism .download_app form input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  .container .footer .footer_qism .download_app form input:-ms-input-placeholder {
+    font-size: 14px;
+  }
+  .container .footer .footer_qism .download_app form input::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  .container .footer .footer_qism .download_app form input::placeholder {
+    font-size: 14px;
+  }
+  .container .footer .footer_qism .download_app form button {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=container.css.map */

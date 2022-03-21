@@ -1,0 +1,164 @@
+.slider2{
+    margin: 50px 0;
+    padding: 0 150px;
+    &>p{
+        color: #7FAD39;
+        font-weight: bold;
+    }
+    &>h2{
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .slider_boxer{
+        display: grid;
+        grid-template-columns: repeat(6, calc(100% / 6));
+        gap: 5px;
+        width: 100%;
+        justify-content: center;
+        .slider2_box{
+            border: 1px solid #DFDFDF;
+            background-color: white;
+            margin: 0 5px;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgb(223, 223, 223);
+            width: 100%;
+            .skidka{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                p{
+                    padding: 5px 10px;
+                    background-color: #7FAD39;
+                    color: white;
+                    font-size: 12px;
+                }
+                i{
+                    color: #7FAD39;
+                    background-color: #D8E6C3;
+                    border-radius: 50%;
+                    padding: 5px;
+                    cursor: pointer;
+                    &:hover{
+                        color: #7ab422;
+                        background-color: #b6c59f;
+                    }
+                }
+            }
+            &>img{
+                object-fit: cover;
+                width: 100%;
+
+            }
+            &>span{
+                font-size: 12px;
+                color: #A9A9A9;
+                display: flex;
+                justify-content: center;
+                margin: 5px 0;
+            }
+            h2{
+                font-size: 14px;
+                display: flex;
+                margin: 5px 0;
+                justify-content: center;
+            }
+            &>p{
+                display: flex;
+                justify-content: center;
+                color: #7ab422;
+                &>span{
+                    color: #A9A9A9;
+                    margin-left: 3px;
+                    text-decoration: line-through;
+                }
+            }
+            .soBuy{
+                display: flex;
+                justify-content: space-between;
+                margin-top:20px ;
+                .hisob{
+                    button{
+                        padding: 0 7px;
+                        font-size: 20px;
+                        background-color: #2A2A2A;
+                        border: none ;
+                        outline: none;
+                        color: white;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: black;
+                        }
+                    }
+                    &>span{
+                        margin: 0 5px;
+                        font-size: 12px;
+                        font-weight: 800;
+                    }
+                }
+                &>img{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .slick-prev::before{
+        position: absolute;
+        transform: rotate(180deg);
+        color: rgb(61, 61, 61);
+        left: 5px;
+        top: 0;
+    }
+    .slick-next::before{
+        position: absolute;
+        color: rgb(61, 61, 61);
+        right: 10px;
+        top: 0;
+    }
+}
+
+@media (max-width:1200px){
+    .slider2{
+        .slider_boxer{
+            grid-template-columns: repeat(5, calc(100% / 5));
+        }
+    }
+}
+
+@media (max-width:1075px){
+    .slider2{
+        padding: 0 80px;
+        .slider_boxer{
+            grid-template-columns: repeat(4, calc(100% / 4));
+        }
+    }
+}
+
+@media (max-width:760px){
+    .slider2{
+        padding: 0 80px;
+        .slider_boxer{
+            grid-template-columns: repeat(3, calc(100% / 3));
+        }
+    }
+}
+@media (max-width:600px){
+    .slider2{
+        padding: 0 30px;
+    }
+}
+@media (max-width:425px){
+    .slider2{
+        padding: 0 20px;
+        .slider_boxer{
+            grid-template-columns: repeat(2, calc(100% / 2));
+        }
+    }
+}
+@media (max-width:340px){
+    .slider2{
+        padding: 0 10px;
+        .slider_boxer{
+            grid-template-columns: repeat(1, calc(100% / 1));
+        }
+    }
+}
