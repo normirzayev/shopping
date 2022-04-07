@@ -12,7 +12,7 @@ const malumot = [
 
         id:1,
         rasm: apple,
-        text: "Vegetables & Fruits",
+        text: "Vegetables & Fruits salomumdsqcd",
     },
     {
         id:2,
